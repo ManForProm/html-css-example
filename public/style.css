@@ -494,9 +494,15 @@ body {
     display: table;
     margin: auto;
   }
+  .body{
+    overflow:hidden;
+}
 }
 
 @media (max-width: 550px) {
+    .body{
+        overflow:hidden;
+    }
   .header__top {
     padding: 0px 0px 0px;
     flex-wrap: wrap;

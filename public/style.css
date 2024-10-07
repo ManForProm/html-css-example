@@ -414,18 +414,18 @@ body {
   .services__inner {
     flex-wrap: wrap;
   }
-  .services__list{
+  .services__list {
     order: -1;
     width: 100%;
     padding-left: 0px;
   }
-  .services__item{
+  .services__item {
     width: 100%;
   }
-  .services__item:hover{
+  .services__item:hover {
     width: 100%;
   }
-  .services__content{
+  .services__content {
     width: 100%;
     margin-right: 0;
   }
@@ -448,36 +448,36 @@ body {
   .benefits__inner {
     text-align: center;
   }
-  .benefits__list{
+  .benefits__list {
     padding: 15;
   }
-  .benefits__item{
+  .benefits__item {
     width: 100%;
   }
   .title {
     margin-bottom: 16px;
   }
-  .contacts__inner{
+  .contacts__inner {
     display: block;
     text-align: center;
   }
-  .contacts__list{
+  .contacts__list {
     margin-bottom: 10px;
   }
 
   .title::after {
-   display: none;
+    display: none;
   }
-  .contacts__forms{
+  .contacts__forms {
     width: 100%;
   }
-  .contacts__forms{
+  .contacts__forms {
     width: 100%;
   }
-  .contacts__forms{
+  .contacts__forms {
     width: 100%;
   }
-  .contacts__input{
+  .contacts__input {
     width: 100%;
   }
   .contacts__btn {
@@ -487,9 +487,13 @@ body {
     margin-left: 0px;
     text-align: center;
   }
-  .contacts__info title{
-    margin-left: 10px;}
-
+  .contacts__info title {
+    margin-left: 10px;
+  }
+  .footer__inner {
+    display: table;
+    margin: auto;
+  }
 }
 
 @media (max-width: 550px) {
@@ -538,8 +542,8 @@ body {
 
   .services__item::before {
     margin-top: 15px;
-}
-.title {
+  }
+  .title {
     font-size: 24px;
     line-height: 5px;
   }
@@ -603,9 +607,8 @@ body {
   }
   .contacts__title {
     font-size: 15px;
-  } 
-  .contacts__btn{
+  }
+  .contacts__btn {
     line-height: 10px;
   }
 }
-

@@ -601,4 +601,11 @@ body {
     padding: 0;
     cursor: pointer;
   }
+  .contacts__title {
+    font-size: 15px;
+  } 
+  .contacts__btn{
+    line-height: 10px;
+  }
 }
+

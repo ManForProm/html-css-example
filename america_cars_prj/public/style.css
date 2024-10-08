@@ -494,21 +494,20 @@ body {
     display: table;
     margin: auto;
   }
-  .body{
-    overflow:hidden;
-}
+  .body {
+    overflow-x: hidden;
+  }
 }
 
 @media (max-width: 550px) {
-    .body{
-        overflow:hidden;
-    }
+  .body {
+    overflow-x: hidden;
+  }
   .header__top {
     padding: 0px 0px 0px;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
-    display: grid;
   }
   .header__images {
     top: 150;
@@ -534,6 +533,10 @@ body {
   }
   .logo__img {
     width: 120%;
+    padding: 40px;
+  }
+  .footer__inner logo__img{
+    padding: 0;
   }
   .header {
     min-height: 450px;
@@ -618,3 +621,4 @@ body {
     line-height: 10px;
   }
 }
+
